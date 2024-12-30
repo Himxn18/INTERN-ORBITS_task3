@@ -1,0 +1,76 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-image: url('bg.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .countdown-container {
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 30px;
+    width: 350px;
+    color: #fff;
+  }
+  .countdown-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(158, 152, 166, 0.915);
+  }
+  h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  button {
+    background-color:#100a19;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #1e6d71;
+    transform: scale(1.05);
+  }
+  
+  .timer-display {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  #timer {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
